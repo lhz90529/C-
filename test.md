@@ -1,1 +1,1 @@
-adasd we de <span style="color:Crimson ">aaa</span>.
+adasd we de <span style="color:	#DC143C ">aaa</span>.
