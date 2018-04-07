@@ -12,6 +12,7 @@ cout << x << endl; // print x
 ```
 
 #### Reference can be returned by function
+Return by reference mostly used with dynamic memory allocation or stream operators
 ```c++
 //Good example of "function return reference
 int global = 1;
