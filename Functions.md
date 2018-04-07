@@ -31,7 +31,7 @@ struct Point {
     }
 };
 ```
-In the example above, operator overloading is defined **within the struct** such that the left-hand side of "=" is defined **implicitly**
+In the example above, operator is defined **within the struct** such that the left-hand side of operator is defined **implicitly**
 
 ##### Non-member functions
 ```c++
@@ -43,7 +43,7 @@ bool operator==(const Point& lfs, const Point& rhs) {
     return lfs.x == rhs.x && lhs.y == rhs.y;
 }
 ```
-However, if you define operator **outside of struct**, left-hand side has to be defined **explicitly**
+However, if you define operator **outside of struct**, left-hand side of operator has to be defined **explicitly**
 
 ### Functors
 Classes which defines the `()` operator
