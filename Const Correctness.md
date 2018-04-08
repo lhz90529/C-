@@ -92,7 +92,7 @@ const vector<int>::iterator itr = v.begin();
 //Here itr is a pointer point to a const int
 vector<int>::const_iterator itr = v.begin();
 *itr = 5; //BAD! can’t change value of itr
-++itr; //OK! changing v
+++itr; //OK! can move itr
 int value = *itr; //OK! reading from itr
 ```
 
